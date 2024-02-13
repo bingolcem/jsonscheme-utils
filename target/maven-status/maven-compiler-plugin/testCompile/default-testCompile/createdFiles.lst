@@ -1,0 +1,9 @@
+testClasses\Gender.class
+testClasses\Conditional.class
+testClasses\Male.class
+testClasses\MyClass.class
+testClasses\OneOff.class
+testClasses\Female.class
+testClasses\WorkPackageUpdateRequest.class
+JsonSchemeTest.class
+testClasses\SchemaDependencies.class

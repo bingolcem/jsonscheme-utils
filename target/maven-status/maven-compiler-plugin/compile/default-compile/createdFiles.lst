@@ -1,0 +1,4 @@
+com\hemosoft\jsonSchema\utils\FormField.class
+com\hemosoft\jsonSchema\utils\JsonSchemeConverter.class
+com\hemosoft\jsonSchema\utils\AdditionalProperty.class
+com\hemosoft\jsonSchema\utils\HttpPost.class

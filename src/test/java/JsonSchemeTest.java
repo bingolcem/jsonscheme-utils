@@ -6,12 +6,21 @@ import testClasses.WorkPackageUpdateRequest;
 
 public class JsonSchemeTest {
 
-    JsonSchemeConverter jsonSchemeConverter=new JsonSchemeConverter();
+  JsonSchemeConverter jsonSchemeConverter = new JsonSchemeConverter();
 
-    @Test
-    public void method() {
-        System.out.println(jsonSchemeConverter.getModel( WorkPackageUpdateRequest.class).toPrettyString());
-        int a;
+  @Test
+  public void method() {
+    /// System.out.println(jsonSchemeConverter.getModel(
+    /// WorkPackageUpdateRequest.class).toPrettyString());
 
-    }
+  }
+
+  @Test
+  public void method2() {
+
+    System.out.println(jsonSchemeConverter.getModel(WorkPackageUpdateRequest.class).toPrettyString());
+    // TestClassForResolveMetadata.class
+
+  }
+
 }

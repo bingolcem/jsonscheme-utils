@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="JsonSchemeTest" time="0.389" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.class.path" value="d:\Src.Java\hemosoft-utilities\jsonscheme-utils\target\test-classes;d:\Src.Java\hemosoft-utilities\jsonscheme-utils\target\classes;C:\Users\bingo\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\bingo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\bingo\.m2\repository\com\github\victools\jsonschema-module-swagger-2\4.33.1\jsonschema-module-swagger-2-4.33.1.jar;C:\Users\bingo\.m2\repository\org\slf4j\slf4j-api\2.0.3\slf4j-api-2.0.3.jar;C:\Users\bingo\.m2\repository\io\swagger\core\v3\swagger-annotations\2.2.20\swagger-annotations-2.2.20.jar;C:\Users\bingo\.m2\repository\com\github\victools\jsonschema-module-jakarta-validation\4.31.1\jsonschema-module-jakarta-validation-4.31.1.jar;C:\Users\bingo\.m2\repository\com\github\victools\jsonschema-generator\4.32.0\jsonschema-generator-4.32.0.jar;C:\Users\bingo\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\bingo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\bingo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;C:\Users\bingo\.m2\repository\com\github\victools\jsonschema-module-jackson\4.31.1\jsonschema-module-jackson-4.31.1.jar;C:\Users\bingo\.m2\repository\junit\junit\4.4\junit-4.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\bingo\AppData\Local\Temp\surefire17213398231248103309\surefirebooter-20240209093127365_3.jar C:\Users\bingo\AppData\Local\Temp\surefire17213398231248103309 2024-02-09T09-31-27_164-jvmRun1 surefire-20240209093127365_1tmp surefire_0-20240209093127365_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="d:\Src.Java\hemosoft-utilities\jsonscheme-utils\target\test-classes;d:\Src.Java\hemosoft-utilities\jsonscheme-utils\target\classes;C:\Users\bingo\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\bingo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\bingo\.m2\repository\com\github\victools\jsonschema-module-swagger-2\4.33.1\jsonschema-module-swagger-2-4.33.1.jar;C:\Users\bingo\.m2\repository\org\slf4j\slf4j-api\2.0.3\slf4j-api-2.0.3.jar;C:\Users\bingo\.m2\repository\io\swagger\core\v3\swagger-annotations\2.2.20\swagger-annotations-2.2.20.jar;C:\Users\bingo\.m2\repository\com\github\victools\jsonschema-module-jakarta-validation\4.31.1\jsonschema-module-jakarta-validation-4.31.1.jar;C:\Users\bingo\.m2\repository\com\github\victools\jsonschema-generator\4.32.0\jsonschema-generator-4.32.0.jar;C:\Users\bingo\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\bingo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\bingo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;C:\Users\bingo\.m2\repository\com\github\victools\jsonschema-module-jackson\4.31.1\jsonschema-module-jackson-4.31.1.jar;C:\Users\bingo\.m2\repository\junit\junit\4.4\junit-4.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\bingo"/>
+    <property name="user.language" value="tr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-09-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="d:\Src.Java\hemosoft-utilities\jsonscheme-utils"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\bingo\AppData\Local\Temp\surefire17213398231248103309\surefirebooter-20240209093127365_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17+35-2724"/>
+    <property name="user.name" value="bingo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1254"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\bingo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\bingo\AppData\Local\Temp\"/>
+    <property name="java.version" value="17"/>
+    <property name="user.dir" value="d:\Src.Java\hemosoft-utilities\jsonscheme-utils"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1254"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\apache-maven-3.9.4\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\nodejs\;C:\Program Files\WireGuard\;C:\Users\bingo\AppData\Local\Microsoft\WindowsApps;;C:\Users\bingo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\bingo\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17+35-2724"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="method" classname="JsonSchemeTest" time="0.355">
+    <system-out><![CDATA[{
+  "$schema" : "https://json-schema.org/draft/2020-12/schema",
+  "type" : "object",
+  "properties" : {
+    "gender" : {
+      "type" : "string",
+      "title" : ""
+    },
+    "maleQuestions" : {
+      "type" : "string",
+      "title" : "maleQuestions"
+    },
+    "femaleQuestions" : {
+      "type" : "string",
+      "title" : "femaleQuestions"
+    }
+  },
+  "dependentRequired" : {
+    "gender" : [ "maleQuestions", "femaleQuestions" ]
+  }
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+</testsuite>

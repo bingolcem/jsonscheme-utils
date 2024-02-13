@@ -1,37 +1,41 @@
 package testClasses;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.hemosoft.jsonSchema.utils.FormField;
 
-import java.util.Date;
+
+
+import com.hemosoft.jsonSchema.utils.Conditional;
+import com.hemosoft.jsonSchema.utils.FormField;
+import com.hemosoft.jsonSchema.utils.KeyValue;
+
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
 public class WorkPackageUpdateRequest {
-    @FormField(title = "Id", visibility = false)
-    Long id;
-    @JsonIgnore
-    Long project;
+    // @FormField(title = "Id", visibility = false, endpoint = "ghj", param = "hmö", order = 0, value = "personel")
+    // Long id;
+    // @JsonIgnore
+    // Long project;
 
-    String workPackageNo;
+//    @FormField(endpoint = "", order = 0,a = Female.class, title = "65y" ,dependentRequired = "OptionBir", getSchemaPropertyName = "")
+//     String name;
 
-    String workPackageName;
-  
+//     int a;
 
-    Long personel;
+//@FormField(dependentRequired = {"male", "maleQuestions"}, endpoint = "ghnhfhg", getSchemaPropertyName = "ghghg", order = 0, title = "")
+@Conditional(condition = { @KeyValue(key = "MALE", value = Male.class) })
+public Gender gender;
 
-    Date expectedStartDate;
+// @FormField(endpoint = "dgng", getSchemaPropertyName = "fgfg", order = 0, title = "fgfgfgf")
+// public String maleQuestions;
+// public String femaleQuestions;
 
-    Date expectedEndDate;
 
-    Date actualStartDate;
 
-    Date actualEndDate;
 
     
 
-    String notes;
+  
 
 }
