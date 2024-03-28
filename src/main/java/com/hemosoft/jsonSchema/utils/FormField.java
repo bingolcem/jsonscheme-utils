@@ -4,10 +4,11 @@ import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
-
+import jakarta.validation.Constraint;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)
+@Constraint(validatedBy = {})
 public @interface FormField {
     String title();
 
@@ -15,16 +16,22 @@ public @interface FormField {
 
     boolean visibility() default true;
 
-    String endpoint();
+    String conditionalVisibility() default "";
+
+    //String endpoint();
 
     String param() default "";
 
-     String[] dependentRequired() default {};
+    String[] dependentRequired() default {};
+
     String format() default "";
 
     String getSchemaPropertyName();
-    // Class a();
+
+    String description() default "";
+
     int order();
+
     // descriptor, order, tab (jsonschema fieldset) , condition'lı readonly ve
     // visibility düşünülebilir
     // sonra multilanguage

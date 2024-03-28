@@ -14,5 +14,15 @@ public class AdditionalProperty {
     }
 
     boolean visibility = false;
-    HttpPost httpPost;
+    String endpoint;
+    // String code;
+    String conditionalVisibilty;
+
+    String DataSource;
+
+    String SearchTerm;
+
+    int Offset;
+
+    int PageSize;
 }

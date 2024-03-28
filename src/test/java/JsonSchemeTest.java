@@ -19,7 +19,7 @@ public class JsonSchemeTest {
   public void method2() {
 
     System.out.println(jsonSchemeConverter.getModel(WorkPackageUpdateRequest.class).toPrettyString());
-    // TestClassForResolveMetadata.class
+    System.out.println("fgfd");
 
   }
 

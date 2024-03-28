@@ -1,4 +1,7 @@
 com\hemosoft\jsonSchema\utils\FormField.class
-com\hemosoft\jsonSchema\utils\JsonSchemeConverter.class
 com\hemosoft\jsonSchema\utils\AdditionalProperty.class
-com\hemosoft\jsonSchema\utils\HttpPost.class
+com\hemosoft\jsonSchema\utils\JsonSchemeConverter.class
+com\hemosoft\jsonSchema\utils\Conditional.class
+com\hemosoft\jsonSchema\utils\LookupItem.class
+com\hemosoft\jsonSchema\utils\LookUp.class
+com\hemosoft\jsonSchema\utils\MandatoryCompanyPropertyAttributeOverride.class
